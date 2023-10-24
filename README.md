@@ -49,7 +49,8 @@ For example:
 <div data-aos="fade-up"></div>
 ```
 
-//////create [[plugins]] folder then create [[aos.client.js]] [using ts idm will auto download the file b care 4]////////
+//////create [[plugins]] folder then create [[aos.client.js]] 
+[using ts idm will auto download the file b care 4]////////
 ```html
 import {defineNuxtPlugin} from '#app'
 import AOS from 'aos';
@@ -69,7 +70,7 @@ plugins: [
         {src: '~/plugins/aos.client.js'}
     ],
 ```
-// webstorm autocomplete download both and activate in <libraries> settings//
+// webstorm autocomplete download both and activate in [libraries] settings//
 
 
 
