@@ -48,8 +48,8 @@ For example:
 ```html
 <div data-aos="fade-up"></div>
 ```
-thanks for @YourItalianChef
-//////create [[plugins]] folder then create [[aos.client.js]] 
+thanks for @YourItalianChef<br>
+//////create [[plugins]] folder then create [[aos.client.js]] <br>
 [using ts idm will auto download the file b care 4]////////
 ```js
 import {defineNuxtPlugin} from '#app'
