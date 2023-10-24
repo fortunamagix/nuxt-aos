@@ -48,7 +48,7 @@ For example:
 ```html
 <div data-aos="fade-up"></div>
 ```
-
+thanks for @YourItalianChef
 //////create [[plugins]] folder then create [[aos.client.js]] 
 [using ts idm will auto download the file b care 4]////////
 ```js
