@@ -48,6 +48,31 @@ For example:
 ```html
 <div data-aos="fade-up"></div>
 ```
+```
+//////create [[plugins]] folder then create [[aos.client.js]] [using ts idm will auto download the file b care 4]////////
+
+import {defineNuxtPlugin} from '#app'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+export default defineNuxtPlugin((nuxtApp) => {
+    if (typeof window !== 'undefined') {
+        nuxtApp.AOS = AOS.init({
+            once: false,
+        });
+    }
+});
+
+[[nuxt.config.ts]]
+plugins: [
+        {src: '~/plugins/aos.client.js'}
+    ],
+
+// webstorm autocomplete download and activate in <libraries> settings
+
+```
+
+
 
 ## Development
 
