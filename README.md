@@ -51,7 +51,7 @@ For example:
 
 //////create [[plugins]] folder then create [[aos.client.js]] 
 [using ts idm will auto download the file b care 4]////////
-```html
+```js
 import {defineNuxtPlugin} from '#app'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -65,7 +65,7 @@ export default defineNuxtPlugin((nuxtApp) => {
 });
 ```
 [[nuxt.config.ts]]
-```html
+```js
 plugins: [
         {src: '~/plugins/aos.client.js'}
     ],
