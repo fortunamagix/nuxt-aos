@@ -48,7 +48,7 @@ For example:
 ```html
 <div data-aos="fade-up"></div>
 ```
-```
+```html
 //////create [[plugins]] folder then create [[aos.client.js]] [using ts idm will auto download the file b care 4]////////
 
 import {defineNuxtPlugin} from '#app'
@@ -70,10 +70,10 @@ plugins: [
 
 // webstorm autocomplete download both and activate in <libraries> settings
 ```
-CSS
+
+
+```js
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-```
-```JS
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 ```
