@@ -68,7 +68,11 @@ plugins: [
         {src: '~/plugins/aos.client.js'}
     ],
 
-// webstorm autocomplete download and activate in <libraries> settings
+// webstorm autocomplete download both and activate in <libraries> settings
+CSS
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+JS
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 ```
 
