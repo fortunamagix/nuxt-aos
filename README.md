@@ -62,8 +62,9 @@ export default defineNuxtPlugin((nuxtApp) => {
         });
     }
 });
-
+```
 [[nuxt.config.ts]]
+```html
 plugins: [
         {src: '~/plugins/aos.client.js'}
     ],
@@ -72,7 +73,7 @@ plugins: [
 
 
 
-```js
+```html
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
