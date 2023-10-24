@@ -48,9 +48,9 @@ For example:
 ```html
 <div data-aos="fade-up"></div>
 ```
-thanks for @YourItalianChef<br>
+Thanks to @YourItalianChef<br>
 //////create [[plugins]] folder then create [[aos.client.js]] <br>
-[using ts idm will auto download the file b care 4]////////
+[Note:: Using ts idm will auto download the file b care 4]////////
 ```js
 import {defineNuxtPlugin} from '#app'
 import AOS from 'aos';
