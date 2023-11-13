@@ -38,7 +38,7 @@ export default defineNuxtConfig({
 })
 ```
 
-That's it! You can now use Aos in your Nuxt app on every page ✨
+follow the below step carefully it's important to make it work on Nuxt3
 
 For example:
 
