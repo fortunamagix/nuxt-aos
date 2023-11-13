@@ -64,7 +64,7 @@ export default defineNuxtPlugin((nuxtApp) => {
 [[nuxt.config.ts]]
 ```js
 plugins: [
-        {src: '~/plugins/aos.js'}
+        {src: '~/plugins/aos.js', mode: 'client'}
     ],
 ```
 // webstorm autocomplete download both and activate in [libraries] settings//
