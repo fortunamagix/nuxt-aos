@@ -40,11 +40,6 @@ export default defineNuxtConfig({
 
 follow the below step carefully it's important to make it work on Nuxt3
 
-For example:
-
-```html
-<div data-aos="fade-up"></div>
-```
 Thanks to @YourItalianChef<br>
 //////create [[plugins]] folder then create [[aos.js]] <br>
 [Note:: Using ts idm will auto download the file b care 4]////////
@@ -79,6 +74,11 @@ use "useHead" function on Nuxt3
 ```
 
 
+Usage example:
+
+```html
+<div data-aos="fade-up"></div>
+```
 
 ## Development
 
