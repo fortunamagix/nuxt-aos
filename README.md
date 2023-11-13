@@ -24,11 +24,8 @@ A Nuxt module for adding animate on scroll to your application.
 # Using pnpm
 pnpm add -D nuxt-aos
 
-# Using yarn
-yarn add --dev nuxt-aos
-
-# Using npm
-npm install --save-dev nuxt-aos
+# Then (very important until the module has fixed)
+pnpm add -D aos
 ```
 
 2. Add `nuxt-aos` to the `modules` section of `nuxt.config.ts`
@@ -67,13 +64,14 @@ export default defineNuxtPlugin((nuxtApp) => {
 [[nuxt.config.ts]]
 ```js
 plugins: [
-        {src: '~/plugins/aos.client.js'}
+        {src: '~/plugins/aos.js'}
     ],
 ```
 // webstorm autocomplete download both and activate in [libraries] settings//
 
 
-
+use this link if you want to use aos on-the-fly
+use "useHead" function on Nuxt3
 ```html
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
